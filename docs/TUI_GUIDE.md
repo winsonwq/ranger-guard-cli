@@ -16,7 +16,7 @@ You'll be prompted to enter:
 
 1. **API Base URL** - The base URL of the Ranger Guard API
    - Default: (none)
-   - Example: `http://8.156.83.69:8888/rg`
+   - Example: `http://api.huyouxia.cn`
 
 2. **Access Token** - Your JWT access token
    - Default: (none)
@@ -28,7 +28,7 @@ If you prefer command-line flags:
 
 ```bash
 # Set API base
-ranger-cli config set-api-base http://8.156.83.69:8888/rg
+ranger-cli config set-api-base http://api.huyouxia.cn
 
 # Set token
 ranger-cli config set-token eyJhbGciOiJIUzI1NiJ9...
@@ -46,7 +46,7 @@ Example content:
 
 ```json
 {
-  "apiBase": "http://8.156.83.69:8888/rg",
+  "apiBase": "http://api.huyouxia.cn",
   "token": "eyJhbGciOiJIUzI1NiJ9..."
 }
 ```

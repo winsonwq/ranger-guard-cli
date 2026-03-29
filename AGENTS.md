@@ -17,7 +17,7 @@ Ranger Guard CLI provides both:
 curl -fsSL https://deno.land/install.sh | sh
 
 # Configure CLI
-ranger-cli config set-api-base http://8.156.83.69:8888/rg
+ranger-cli config set-api-base http://api.huyouxia.cn
 ranger-cli config set-token <your-token>
 
 # Test
@@ -108,7 +108,7 @@ CLI config is stored at `~/.config/ranger-guard-cli/config.json`:
 
 ```json
 {
-  "apiBase": "http://8.156.83.69:8888/rg",
+  "apiBase": "http://api.huyouxia.cn",
   "token": "your-jwt-token"
 }
 ```

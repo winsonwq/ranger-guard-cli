@@ -27,7 +27,7 @@ export async function apiCall(config, method, urlPath, params) {
   });
 
   const result = response.data;
-  if (result.code !== 0) {
+  if (result.code !== 0 && result.code !== 200) {
     throw new Error(`API Error: ${result.message}`);
   }
   return result.data;

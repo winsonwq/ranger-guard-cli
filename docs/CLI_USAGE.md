@@ -27,7 +27,7 @@ Before using the CLI, configure your API base URL and access token:
 
 ```bash
 # Set API base URL
-ranger-cli config set-api-base http://8.156.83.69:8888/rg
+ranger-cli config set-api-base http://api.huyouxia.cn
 
 # Set access token
 ranger-cli config set-token <your-jwt-token>
@@ -148,7 +148,7 @@ Error messages are printed to stderr with exit code 1.
 
 ```bash
 # 1. Setup
-ranger-cli config set-api-base http://8.156.83.69:8888/rg
+ranger-cli config set-api-base http://api.huyouxia.cn
 ranger-cli config set-token eyJhbGciOiJIUzI1NiJ9...
 
 # 2. Check config
