@@ -1,0 +1,16 @@
+{
+  "name": "ranger-guard-cli",
+  "version": "1.0.0",
+  "description": "Ranger Guard CLI - CLI tool for Ranger Guard API",
+  "type": "module",
+  "main": "ranger_cli.js",
+  "bin": {
+    "ranger-cli": "./ranger_cli.js"
+  },
+  "scripts": {
+    "start": "node ranger_cli.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
