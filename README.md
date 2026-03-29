@@ -10,6 +10,11 @@ Ranger Guard 研学活动管理系统的 CLI 工具和 OpenClaw Skills。
 ## 安装
 
 ```bash
+# 克隆仓库
+git clone https://github.com/winsonwq/ranger-guard-cli.git
+cd ranger-guard-cli/cli
+
+# 全局安装
 npm install -g
 ```
 
