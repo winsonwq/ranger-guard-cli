@@ -1,11 +1,10 @@
 # Ranger Guard CLI
 
-Ranger Guard 研学活动管理系统的 CLI 工具和 OpenClaw Skills。
+Ranger Guard 研学活动管理系统的 CLI 工具，支持计调、总控、研学导师三种角色。
 
 ## 功能
 
-- **CLI 工具**：通过命令行操作 ranger-guard API，支持计调、总控、研学导师三种角色
-- **OpenClaw Skills**：AI Agent 可直接调用 CLI 完成业务操作
+通过命令行操作 ranger-guard API，支持账号管理、活动管理、班级分组、车辆分配、签到打卡等全部业务操作。
 
 ## 安装
 
@@ -84,18 +83,4 @@ ranger-cli controller --help
 ranger-cli mentor --help
 ```
 
-## Skills
 
-OpenClaw Agent 通过 Skills 调用 CLI：
-
-```
-skills/
-├── ranger-admin/      # 计调技能包
-├── ranger-controller/ # 总控技能包
-└── ranger-mentor/     # 研学导师技能包
-```
-
-每个 Skill 包含：
-- `SKILL.md` — 入口文件
-- `references/*-api.md` — API 调用说明
-- `references/*-cli.md` — CLI 调用说明
